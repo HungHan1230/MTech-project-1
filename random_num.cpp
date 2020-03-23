@@ -6,6 +6,8 @@
 // #include<iostream>
 // #include<gmp.h>
 // #include<time.h>
+#ifndef _A_H_
+#define _A_H_
 
 int gen_random_no(int out,int bit_cnt,mpz_t max_no,mpz_t rand_no,gmp_randstate_t r_state1)
 {
@@ -38,3 +40,4 @@ int gen_random_no(int out,int bit_cnt,mpz_t max_no,mpz_t rand_no,gmp_randstate_t
 
   return 0;
 }
+#endif
