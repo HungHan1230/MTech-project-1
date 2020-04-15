@@ -1,4 +1,5 @@
 
+#include<openssl/md5.h>
 void hash_func(mpz_t w,mpz_t hash_val){
   string msg;
   mpz_t temp,r;
